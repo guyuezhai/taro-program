@@ -2,15 +2,32 @@
 	"miniprogramRoot": "dist/",
 	"projectname": "myApp",
 	"description": "learn taro demo",
-	"appid": "touristappid",
+	"appid": "wxbc023a3152fd7e15",
+	"cloudfunctionRoot": "functions/",
 	"setting": {
 		"urlCheck": true,
-		"es6": false,
+		"es6": true,
+		"enhance": true,
 		"postcss": false,
-		"minified": false
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"libVersion": "2.10.2",
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {}
 }
